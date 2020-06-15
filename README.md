@@ -1,6 +1,4 @@
-# StandingDesk
-
-**TODO: Add description**
+# Standing Desk
 
 ## Targets
 
@@ -13,6 +11,12 @@ All of this logic is in the generated `mix.exs` and may be customized. For more
 information about targets see:
 
 https://hexdocs.pm/nerves/targets.html#content
+
+## Wifi
+
+```sh
+MIX_TARGET=rpi3 WIFI_SSID=ssid WIFI_PSK=psk mix firmware.burn --task upgrade
+```
 
 ## Getting Started
 
